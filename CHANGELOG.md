@@ -8,14 +8,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ### Added
-- Initial project structure and architecture
-- Go CLI framework with Cobra
-- Python AI microservice with FastAPI
-- Configuration management system
-- Git integration using go-git
-- AI provider abstraction layer
-- Docker support and development environment
-- Comprehensive documentation and contributing guidelines
+- N/A
 
 ### Changed
 - N/A
@@ -32,18 +25,24 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Security
 - N/A
 
-## [0.1.0] - 2025-01-XX
+## [0.1.0] - 2025-09-23
 
 ### Added
-- Initial release of DiffAI
-- AI-powered commit message generation
-- Pull request summarization
-- Changelog generation
-- Multiple AI provider support (OpenAI, Anthropic, Local)
-- CLI integration with Git
-- Configuration management
-- Docker containerization
-- Comprehensive testing framework
+- Initial release of DiffAI - AI-powered Git assistant
+- AI-powered commit message generation from staged diffs
+- Pull request summarization with impact analysis
+- Automated changelog generation from commit history
+- Multiple AI provider support (OpenAI GPT-4, Anthropic Claude, Local AI)
+- Git CLI integration using go-git (pure Go implementation)
+- Comprehensive configuration management system
+- Docker support and development environment
+- Cross-platform compatibility (Linux, macOS, Windows)
+- Hybrid Go + Python microservice architecture
+- FastAPI-based AI service layer
+- Cobra CLI framework with all core commands
+- Comprehensive documentation and contributing guidelines
+- Professional README with installation and usage examples
+- Development tooling with Makefile and Docker Compose
 
 ---
 
