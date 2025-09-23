@@ -1,0 +1,27 @@
+# DiffAI Default Configuration
+
+ai:
+  provider: "openai"  # openai, anthropic, local
+  model: "gpt-4"
+  api_key: "${OPENAI_API_KEY}"
+  base_url: "https://api.openai.com/v1"
+  options:
+    temperature: "0.7"
+    max_tokens: "500"
+
+git:
+  conventional_commits: true
+  max_commit_length: 50
+  auto_commit: false
+  default_branch: "main"
+
+output:
+  format: "text"  # text, json, markdown
+  verbose: false
+  color: true
+
+service:
+  host: "localhost"
+  port: 8080
+  timeout_seconds: 30
+  retries: 3
