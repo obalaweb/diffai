@@ -91,3 +91,7 @@ ai-service/.pytest_cache/
 # Temporary files
 tmp/
 temp/
+
+
+#Ignore vscode AI rules
+.github/instructions/codacy.instructions.md

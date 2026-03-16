@@ -12,19 +12,19 @@ func main() {
 		Use:   "diffai",
 		Short: "AI-powered Git assistant that understands your diffs",
 		Long: `DiffAI helps developers make better commits, generate meaningful PR summaries, 
-and automate changelogs — all powered by AI that actually understands code changes.
+				and automate changelogs — all powered by AI that actually understands code changes.
 
-DiffAI integrates seamlessly with Git CLI and provides intelligent assistance for:
-- Generating conventional commit messages from staged diffs
-- Summarizing pull requests into developer-friendly overviews  
-- Auto-generating changelogs grouped by features & fixes
-- Extensible integrations for GitHub, GitLab, Bitbucket
+				DiffAI integrates seamlessly with Git CLI and provides intelligent assistance for:
+				- Generating conventional commit messages from staged diffs
+				- Summarizing pull requests into developer-friendly overviews  
+				- Auto-generating changelogs grouped by features & fixes
+				- Extensible integrations for GitHub, GitLab, Bitbucket
 
-Examples:
-  git diffai commit          # Generate commit message from staged changes
-  git diffai pr 123          # Summarize PR #123
-  git diffai changelog       # Generate changelog from recent commits
-  git diffai config          # Manage configuration`,
+				Examples:
+				git diffai commit          # Generate commit message from staged changes
+				git diffai pr 123          # Summarize PR #123
+				git diffai changelog       # Generate changelog from recent commits
+				git diffai config          # Manage configuration`,
 		Version: "0.1.0",
 	}
 
